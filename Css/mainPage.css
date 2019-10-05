@@ -1,0 +1,138 @@
+		.body {
+  			background-color: #ffeeff;
+		}
+		.mainTitle {
+  			font-family: Comic Sans MS;
+  			color: #bf5f82;
+  			text-align: center;
+  			font-size: : 44PX;
+		}
+		.subtitle {
+  			font-family: Comic Sans MS;
+  			color: #c48b9f;
+  			text-align: center;
+  			font-size: 24px;
+		}
+		.p {
+			text-align: center;
+			font-family: Comic Sans MS;
+		}
+
+		.importantNote {
+			border: dashed; 
+			text-align: center;
+			border-color: #c48b9f; 
+			margin-left: 20%; 
+			margin-right: 20%; 
+			min-width: 300px 
+		}
+
+		.header {
+			background-image: url("../resources/images/pinapple.jpg");
+			background-position: left center;
+			background-color: #fce4ec;
+			border: 3px solid; 
+			border-color: #c9b2ba;
+			border-style: dotted;
+			margin: auto;
+		}
+		/*navBar*/
+		.ul {
+  			list-style-type: none;	
+  			overflow: hidden;
+			background-color: #c48b9f;
+			 box-shadow: 5px 5px 25px #ad7689;
+		}
+
+		.li {
+  			float: right;
+		}
+
+		.li a {
+  			display: block;
+  			color: white;
+  			text-align: center;
+ 			padding: 14px 20px;
+ 			text-decoration: none;
+ 			font-family: Comic Sans MS;
+ 			font-size: 15px;
+		}	
+
+		.li a:hover {
+ 			 background-color: #f8bbd0;
+		}
+
+		.mySidebar{
+			height:100%;
+			width:200px;
+			background-color:#c48b9f;
+			position:fixed!important;
+			z-index:1;
+			overflow:auto;
+			position:relative;
+			animation:animateleft 0.4s
+		}
+		@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+		.sidebar-btn{
+			float: left;
+			border:none;
+			overflow:hidden;
+			text-align: center;
+ 			padding: 14px 16px;
+			text-decoration:none;
+			background-color:inherit;
+			color: white;
+			cursor: pointer;
+			font-size: 15px;
+			font-family: Comic Sans MS;
+		}
+
+		.item {
+			padding:8px 25px;
+			line-height: 18px;
+			overflow-wrap: break-word;
+			word-break: normal;
+			white-space: pre-wrap;
+			outline: 0;
+			color: white;
+			cursor: pointer;
+			float:left;
+			width:auto;
+			border:none;
+			font-size: 15px;
+			font-family: Comic Sans MS;
+			text-decoration: none;
+			background-color:inherit;
+			text-align:center;
+		
+		}
+
+		/*table*/
+		.diaryBookTable {
+  			font-family: "Comic Sans MS";
+  			border-collapse: collapse;
+  			width: 80%;
+  			margin-right: 10%;
+  			margin-left: 10%;
+		}
+
+		.diaryBookTable td, .diaryBookTable th {
+ 			 border: 1px solid white;
+			  padding: 8px;
+		}
+
+		.diaryBookTable tr:nth-child(even){background-color: #ffc1e3;}
+
+		.diaryBookTable tr:hover {background-color: #f48fb1;}
+
+		.diaryBookTable th {
+ 			 padding-top: 12px;
+ 			 padding-bottom: 12px;
+  			text-align: left;
+  			background-color: #bf5f82;
+ 			 color: white;
+		}	
+	    .detalle { width: 30%; }
+	    .entradaysalida { width: 10%; }
+	    .ticket { width: 3% }

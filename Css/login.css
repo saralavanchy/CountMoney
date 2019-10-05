@@ -1,0 +1,122 @@
+
+   .mainTitle{
+       text-shadow: 1px 1px 2px #59303e;
+   }
+
+   .subtitle{
+       color: white;
+       font: bold;
+       text-align: left;
+       margin-left: 5%;
+   }
+
+   .container{
+        text-align: center;
+        margin: auto;
+        min-width: 500px;
+    }
+  
+    .lateral{
+        width: 50%;  /*Este será el ancho que tendrá tu columna*/
+        float:right; /*Aqui determinas de lado quieres quede esta "columna" */
+        text-align: center;
+    }
+    
+    .main{
+        margin-right:51%; 
+    }
+
+    .image{
+        width:40%;
+        height: 20%;
+        align-self : center;
+        margin: 5%;
+        min-width: 150px;
+        -webkit-filter: drop-shadow(3px 3px 3px #c48b9f );
+        filter: drop-shadow(3px 3px 3px #c48b9f);
+    }
+    .label{
+        color: #59303e;
+        font:bold;
+        font-family: "Comic Sans MS";
+        font-size: 15px;
+        text-decoration: none;
+
+    }
+
+    .input{
+        border: solid 1px #c48b9f;
+        background-color: #f095b4;
+        color: white;
+        font: bold;
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        box-shadow: 10px 10px 25px c48b9f inset; 
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+    .input:focus{
+        background-color:#f2a5c0;
+        box-shadow: 5px 5px 25px #c48b9f; 
+        width: 80%;
+    }
+
+    .input[type=button], input[type=submit], input[type=reset]{
+        background-color: #c48b9f;
+        border: none;
+        font: bold;
+        font-family: "Comic Sans MS";
+        font-size: 15px;
+        color: white;
+        padding: 12px 20px;
+        text-decoration: none;
+        margin: 3%;
+        cursor: pointer;
+        width: 80%;
+        box-shadow: 2px 2px 5px #c48b9f; 
+    }
+    
+
+    .btn {
+        background-color: #c48b9f;
+        border: none;
+        font: bold;
+        font-family: "Comic Sans MS";
+        font-size: 15px;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        margin: 3%;
+        cursor: pointer;
+        width: 30%;
+        box-shadow: 2px 2px 5px #c48b9f; 
+    }
+
+
+    .alertMsjFromLogin {
+        padding: 20px;
+        background-color: #f44336; /* Red */
+        color: white;
+        font-family: 'Comic Sans MS';
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+  
+
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+
+  .closebtn:hover {
+    color: black;
+  }
